@@ -1,0 +1,50 @@
+{
+  "policies": [
+    {
+      "apply-to": "queues",
+      "definition": {
+        "queue-version": 2
+      },
+      "name": "cqv2",
+      "pattern": "cqv2",
+      "priority": 0,
+      "vhost": "/"
+    },
+    {
+      "apply-to": "queues",
+      "definition": {
+        "ha-mode": "exactly",
+        "ha-params": 3,
+        "ha-sync-mode": "automatic",
+        "queue-version": 1
+      },
+      "name": "cmqv1-3mirrors",
+      "pattern": "cmqv1-3mirrors",
+      "priority": 0,
+      "vhost": "/"
+    },
+    {
+      "apply-to": "queues",
+      "definition": {
+        "queue-version": 1
+      },
+      "name": "cqv1",
+      "pattern": "cqv1",
+      "priority": 0,
+      "vhost": "/"
+    },
+    {
+      "apply-to": "queues",
+      "definition": {
+        "ha-mode": "exactly",
+        "ha-params": 2,
+        "ha-sync-mode": "automatic",
+        "queue-version": 1
+      },
+      "name": "cmqv1-2mirrors",
+      "pattern": "cmqv1-2mirrors",
+      "priority": 0,
+      "vhost": "/"
+    }
+  ]
+}
