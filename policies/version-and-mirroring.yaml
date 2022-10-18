@@ -1,4 +1,17 @@
 {
+  "bindings": [],
+  "exchanges": [],
+  "global_parameters": [],
+  "parameters": [],
+  "permissions": [
+    {
+      "configure": ".*",
+      "read": ".*",
+      "user": "guest",
+      "vhost": "/",
+      "write": ".*"
+    }
+  ],
   "policies": [
     {
       "apply-to": "queues",
@@ -45,6 +58,31 @@
       "pattern": "cmqv1-2mirrors",
       "priority": 0,
       "vhost": "/"
+    }
+  ],
+  "queues": [],
+  "rabbit_version": "3.12.0",
+  "rabbitmq_version": "3.12.0",
+  "topic_permissions": [],
+  "users": [
+    {
+      "hashing_algorithm": "rabbit_password_hashing_sha256",
+      "limits": {},
+      "name": "guest",
+      "password_hash": "oZ1kH2lXTUvPemYRyu+B7Z7qFTinE31m5pn2VkfaXRUboSrb",
+      "tags": [
+        "administrator"
+      ]
+    }
+  ],
+  "vhosts": [
+    {
+      "limits": [],
+      "metadata": {
+        "description": "Default virtual host",
+        "tags": []
+      },
+      "name": "/"
     }
   ]
 }
