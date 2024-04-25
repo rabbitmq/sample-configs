@@ -1,0 +1,113 @@
+{
+   "bindings": [ ],
+   "global_parameters": [ ],
+   "parameters": [ ],
+   "permissions": [
+      {
+         "configure": ".*",
+         "read": ".*",
+         "user": "guest",
+         "vhost": "/",
+         "write": ".*"
+      }
+   ],
+   "policies": [ ],
+   "queues": [ ],
+   "rabbit_version": "3.8.10+1552.g167c0e9",
+   "rabbitmq_version": "3.8.10+1552.g167c0e9",
+   "topic_permissions": [ ],
+   "users": [
+      {
+         "hashing_algorithm": "rabbit_password_hashing_sha256",
+         "limits": { },
+         "name": "guest",
+         "password_hash": "uasGM6pRAIaNVacIzLNnf0U6JkoXO4f3NmqDzCJ6ua9DzIcc",
+         "tags": [
+            "administrator"
+         ]
+      }
+   ],
+   "vhosts": [
+      {
+         "limits": [ ],
+         "metadata": {
+            "description": "vhost v1",
+            "tags": [ ]
+         },
+         "name": "v1"
+      },
+      {
+         "limits": [ ],
+         "metadata": {
+            "description": "vhost v2",
+            "tags": [ ]
+         },
+         "name": "v2"
+      },
+      {
+         "limits": [ ],
+         "metadata": {
+            "description": "vhost v3",
+            "tags": [ ]
+         },
+         "name": "v3"
+      },
+      {
+         "limits": [ ],
+         "metadata": {
+            "description": "vhost v4",
+            "tags": [ ]
+         },
+         "name": "v4"
+      },
+      {
+         "limits": [ ],
+         "metadata": {
+            "description": "vhost v5",
+            "tags": [ ]
+         },
+         "name": "v5"
+      },
+      {
+         "limits": [ ],
+         "metadata": {
+            "description": "vhost v6",
+            "tags": [ ]
+         },
+         "name": "v6"
+      },
+      {
+         "limits": [ ],
+         "metadata": {
+            "description": "vhost v7",
+            "tags": [ ]
+         },
+         "name": "v7"
+      },
+      {
+         "limits": [ ],
+         "metadata": {
+            "description": "vhost v8",
+            "tags": [ ]
+         },
+         "name": "v8"
+      },
+      {
+         "limits": [ ],
+         "metadata": {
+            "description": "vhost v9",
+            "tags": [ ]
+         },
+         "name": "v9"
+      },
+      {
+         "limits": [ ],
+         "metadata": {
+            "description": "vhost v10",
+            "tags": [ ]
+         },
+         "name": "v10"
+      }
+   ]
+}
+
