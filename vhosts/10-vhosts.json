@@ -7,7 +7,7 @@
          "configure": ".*",
          "read": ".*",
          "user": "guest",
-         "vhost": "/",
+         "vhost": "v1",
          "write": ".*"
       }
    ],
