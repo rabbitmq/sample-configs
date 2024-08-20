@@ -1,0 +1,3743 @@
+{
+   "bindings": [ ],
+   "exchanges": [ ],
+   "global_parameters": [ ],
+   "parameters": [
+      {
+         "component": "shovel",
+         "name": "my-shovel-1",
+         "value": {
+            "dest-address": "/queues/dst-queue-1",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-1",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-2",
+         "value": {
+            "dest-address": "/queues/dst-queue-2",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-2",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-3",
+         "value": {
+            "dest-address": "/queues/dst-queue-3",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-3",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-4",
+         "value": {
+            "dest-address": "/queues/dst-queue-4",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-4",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-5",
+         "value": {
+            "dest-address": "/queues/dst-queue-5",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-5",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-6",
+         "value": {
+            "dest-address": "/queues/dst-queue-6",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-6",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-7",
+         "value": {
+            "dest-address": "/queues/dst-queue-7",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-7",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-8",
+         "value": {
+            "dest-address": "/queues/dst-queue-8",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-8",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-9",
+         "value": {
+            "dest-address": "/queues/dst-queue-9",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-9",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-10",
+         "value": {
+            "dest-address": "/queues/dst-queue-10",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-10",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-11",
+         "value": {
+            "dest-address": "/queues/dst-queue-11",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-11",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-12",
+         "value": {
+            "dest-address": "/queues/dst-queue-12",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-12",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-13",
+         "value": {
+            "dest-address": "/queues/dst-queue-13",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-13",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-14",
+         "value": {
+            "dest-address": "/queues/dst-queue-14",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-14",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-15",
+         "value": {
+            "dest-address": "/queues/dst-queue-15",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-15",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-16",
+         "value": {
+            "dest-address": "/queues/dst-queue-16",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-16",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-17",
+         "value": {
+            "dest-address": "/queues/dst-queue-17",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-17",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-18",
+         "value": {
+            "dest-address": "/queues/dst-queue-18",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-18",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-19",
+         "value": {
+            "dest-address": "/queues/dst-queue-19",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-19",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-20",
+         "value": {
+            "dest-address": "/queues/dst-queue-20",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-20",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-21",
+         "value": {
+            "dest-address": "/queues/dst-queue-21",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-21",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-22",
+         "value": {
+            "dest-address": "/queues/dst-queue-22",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-22",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-23",
+         "value": {
+            "dest-address": "/queues/dst-queue-23",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-23",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-24",
+         "value": {
+            "dest-address": "/queues/dst-queue-24",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-24",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-25",
+         "value": {
+            "dest-address": "/queues/dst-queue-25",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-25",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-26",
+         "value": {
+            "dest-address": "/queues/dst-queue-26",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-26",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-27",
+         "value": {
+            "dest-address": "/queues/dst-queue-27",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-27",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-28",
+         "value": {
+            "dest-address": "/queues/dst-queue-28",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-28",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-29",
+         "value": {
+            "dest-address": "/queues/dst-queue-29",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-29",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-30",
+         "value": {
+            "dest-address": "/queues/dst-queue-30",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-30",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-31",
+         "value": {
+            "dest-address": "/queues/dst-queue-31",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-31",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-32",
+         "value": {
+            "dest-address": "/queues/dst-queue-32",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-32",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-33",
+         "value": {
+            "dest-address": "/queues/dst-queue-33",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-33",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-34",
+         "value": {
+            "dest-address": "/queues/dst-queue-34",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-34",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-35",
+         "value": {
+            "dest-address": "/queues/dst-queue-35",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-35",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-36",
+         "value": {
+            "dest-address": "/queues/dst-queue-36",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-36",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-37",
+         "value": {
+            "dest-address": "/queues/dst-queue-37",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-37",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-38",
+         "value": {
+            "dest-address": "/queues/dst-queue-38",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-38",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-39",
+         "value": {
+            "dest-address": "/queues/dst-queue-39",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-39",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-40",
+         "value": {
+            "dest-address": "/queues/dst-queue-40",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-40",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-41",
+         "value": {
+            "dest-address": "/queues/dst-queue-41",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-41",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-42",
+         "value": {
+            "dest-address": "/queues/dst-queue-42",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-42",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-43",
+         "value": {
+            "dest-address": "/queues/dst-queue-43",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-43",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-44",
+         "value": {
+            "dest-address": "/queues/dst-queue-44",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-44",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-45",
+         "value": {
+            "dest-address": "/queues/dst-queue-45",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-45",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-46",
+         "value": {
+            "dest-address": "/queues/dst-queue-46",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-46",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-47",
+         "value": {
+            "dest-address": "/queues/dst-queue-47",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-47",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-48",
+         "value": {
+            "dest-address": "/queues/dst-queue-48",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-48",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-49",
+         "value": {
+            "dest-address": "/queues/dst-queue-49",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-49",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-50",
+         "value": {
+            "dest-address": "/queues/dst-queue-50",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-50",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-51",
+         "value": {
+            "dest-address": "/queues/dst-queue-51",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-51",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-52",
+         "value": {
+            "dest-address": "/queues/dst-queue-52",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-52",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-53",
+         "value": {
+            "dest-address": "/queues/dst-queue-53",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-53",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-54",
+         "value": {
+            "dest-address": "/queues/dst-queue-54",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-54",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-55",
+         "value": {
+            "dest-address": "/queues/dst-queue-55",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-55",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-56",
+         "value": {
+            "dest-address": "/queues/dst-queue-56",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-56",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-57",
+         "value": {
+            "dest-address": "/queues/dst-queue-57",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-57",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-58",
+         "value": {
+            "dest-address": "/queues/dst-queue-58",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-58",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-59",
+         "value": {
+            "dest-address": "/queues/dst-queue-59",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-59",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-60",
+         "value": {
+            "dest-address": "/queues/dst-queue-60",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-60",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-61",
+         "value": {
+            "dest-address": "/queues/dst-queue-61",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-61",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-62",
+         "value": {
+            "dest-address": "/queues/dst-queue-62",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-62",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-63",
+         "value": {
+            "dest-address": "/queues/dst-queue-63",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-63",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-64",
+         "value": {
+            "dest-address": "/queues/dst-queue-64",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-64",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-65",
+         "value": {
+            "dest-address": "/queues/dst-queue-65",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-65",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-66",
+         "value": {
+            "dest-address": "/queues/dst-queue-66",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-66",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-67",
+         "value": {
+            "dest-address": "/queues/dst-queue-67",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-67",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-68",
+         "value": {
+            "dest-address": "/queues/dst-queue-68",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-68",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-69",
+         "value": {
+            "dest-address": "/queues/dst-queue-69",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-69",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-70",
+         "value": {
+            "dest-address": "/queues/dst-queue-70",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-70",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-71",
+         "value": {
+            "dest-address": "/queues/dst-queue-71",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-71",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-72",
+         "value": {
+            "dest-address": "/queues/dst-queue-72",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-72",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-73",
+         "value": {
+            "dest-address": "/queues/dst-queue-73",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-73",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-74",
+         "value": {
+            "dest-address": "/queues/dst-queue-74",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-74",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-75",
+         "value": {
+            "dest-address": "/queues/dst-queue-75",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-75",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-76",
+         "value": {
+            "dest-address": "/queues/dst-queue-76",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-76",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-77",
+         "value": {
+            "dest-address": "/queues/dst-queue-77",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-77",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-78",
+         "value": {
+            "dest-address": "/queues/dst-queue-78",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-78",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-79",
+         "value": {
+            "dest-address": "/queues/dst-queue-79",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-79",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-80",
+         "value": {
+            "dest-address": "/queues/dst-queue-80",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-80",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-81",
+         "value": {
+            "dest-address": "/queues/dst-queue-81",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-81",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-82",
+         "value": {
+            "dest-address": "/queues/dst-queue-82",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-82",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-83",
+         "value": {
+            "dest-address": "/queues/dst-queue-83",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-83",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-84",
+         "value": {
+            "dest-address": "/queues/dst-queue-84",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-84",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-85",
+         "value": {
+            "dest-address": "/queues/dst-queue-85",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-85",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-86",
+         "value": {
+            "dest-address": "/queues/dst-queue-86",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-86",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-87",
+         "value": {
+            "dest-address": "/queues/dst-queue-87",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-87",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-88",
+         "value": {
+            "dest-address": "/queues/dst-queue-88",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-88",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-89",
+         "value": {
+            "dest-address": "/queues/dst-queue-89",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-89",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-90",
+         "value": {
+            "dest-address": "/queues/dst-queue-90",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-90",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-91",
+         "value": {
+            "dest-address": "/queues/dst-queue-91",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-91",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-92",
+         "value": {
+            "dest-address": "/queues/dst-queue-92",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-92",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-93",
+         "value": {
+            "dest-address": "/queues/dst-queue-93",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-93",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-94",
+         "value": {
+            "dest-address": "/queues/dst-queue-94",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-94",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-95",
+         "value": {
+            "dest-address": "/queues/dst-queue-95",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-95",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-96",
+         "value": {
+            "dest-address": "/queues/dst-queue-96",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-96",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-97",
+         "value": {
+            "dest-address": "/queues/dst-queue-97",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-97",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-98",
+         "value": {
+            "dest-address": "/queues/dst-queue-98",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-98",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-99",
+         "value": {
+            "dest-address": "/queues/dst-queue-99",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-99",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      },
+      {
+         "component": "shovel",
+         "name": "my-shovel-100",
+         "value": {
+            "dest-address": "/queues/dst-queue-100",
+            "dest-protocol": "amqp10",
+            "dest-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ],
+            "src-address": "/queues/src-queue-100",
+            "src-protocol": "amqp10",
+            "src-uri": [
+               "amqp://localhost:5672",
+               "amqp://localhost:5673",
+               "amqp://localhost:5674"
+            ]
+         },
+         "vhost": "/"
+      }
+   ],
+   "permissions": [
+      {
+         "configure": ".*",
+         "read": ".*",
+         "user": "guest",
+         "vhost": "/",
+         "write": ".*"
+      }
+   ],
+   "policies": [ ],
+   "queues": [
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-1",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-2",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-3",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-4",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-5",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-6",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-7",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-8",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-9",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-10",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-11",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-12",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-13",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-14",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-15",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-16",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-17",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-18",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-19",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-20",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-21",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-22",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-23",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-24",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-25",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-26",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-27",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-28",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-29",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-30",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-31",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-32",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-33",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-34",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-35",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-36",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-37",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-38",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-39",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-40",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-41",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-42",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-43",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-44",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-45",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-46",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-47",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-48",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-49",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-50",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-51",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-52",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-53",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-54",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-55",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-56",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-57",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-58",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-59",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-60",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-61",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-62",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-63",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-64",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-65",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-66",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-67",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-68",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-69",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-70",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-71",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-72",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-73",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-74",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-75",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-76",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-77",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-78",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-79",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-80",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-81",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-82",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-83",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-84",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-85",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-86",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-87",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-88",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-89",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-90",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-91",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-92",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-93",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-94",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-95",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-96",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-97",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-98",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-99",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "src-queue-100",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-1",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-2",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-3",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-4",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-5",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-6",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-7",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-8",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-9",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-10",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-11",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-12",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-13",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-14",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-15",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-16",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-17",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-18",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-19",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-20",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-21",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-22",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-23",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-24",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-25",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-26",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-27",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-28",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-29",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-30",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-31",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-32",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-33",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-34",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-35",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-36",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-37",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-38",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-39",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-40",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-41",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-42",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-43",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-44",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-45",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-46",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-47",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-48",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-49",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-50",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-51",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-52",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-53",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-54",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-55",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-56",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-57",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-58",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-59",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-60",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-61",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-62",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-63",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-64",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-65",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-66",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-67",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-68",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-69",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-70",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-71",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-72",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-73",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-74",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-75",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-76",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-77",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-78",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-79",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-80",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-81",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-82",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-83",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-84",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-85",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-86",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-87",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-88",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-89",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-90",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-91",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-92",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-93",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-94",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-95",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-96",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-97",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-98",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-99",
+         "type": "quorum",
+         "vhost": "/"
+      },
+      {
+         "arguments": { },
+         "auto_delete": false,
+         "durable": true,
+         "name": "dst-queue-100",
+         "type": "quorum",
+         "vhost": "/"
+      }
+   ],
+   "rabbit_version": "3.13.0+rc.1.20.ge365a99",
+   "rabbitmq_version": "3.13.0+rc.1.20.ge365a99",
+   "topic_permissions": [ ],
+   "users": [
+      {
+         "hashing_algorithm": "rabbit_password_hashing_sha256",
+         "limits": { },
+         "name": "guest",
+         "password_hash": "5rB5BmXGUjdmWMF1qFQukV/AAVulChVYUmv/nKiQtr6wNiLo",
+         "tags": [
+            "administrator"
+         ]
+      }
+   ],
+   "vhosts": [
+      {
+         "limits": [ ],
+         "metadata": {
+            "description": "Default virtual host",
+            "tags": [ ]
+         },
+         "name": "/"
+      }
+   ]
+}
