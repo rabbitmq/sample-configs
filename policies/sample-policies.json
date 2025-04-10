@@ -1,0 +1,83 @@
+{
+  "permissions": [
+    {
+      "configure": ".*",
+      "read": ".*",
+      "user": "guest",
+      "vhost": "/",
+      "write": ".*"
+    }
+  ],
+  "bindings": [],
+  "queues": [],
+  "parameters": [],
+  "policies": [
+    {
+      "apply-to": "queues",
+      "definition": {
+        "max-length-bytes": 20000000000
+      },
+      "name": "stream-policy",
+      "pattern": "^stream-.*",
+      "priority": 0,
+      "vhost": "/"
+    },
+    {
+      "apply-to": "quorum_queues",
+      "definition": {
+        "dead-letter-strategy": "at-least-once",
+        "delivery-limit": 25
+      },
+      "name": "qq-policy",
+      "pattern": "^qq-.*",
+      "priority": 0,
+      "vhost": "/"
+    },
+    {
+      "apply-to": "classic_queues",
+      "definition": {
+        "message-ttl": 60000
+      },
+      "name": "cq-ttl-policy",
+      "pattern": "^cq-ttl-.*",
+      "priority": 0,
+      "vhost": "/"
+    }
+  ],
+  "rabbitmq_version": "4.1.0+beta.4.178.g4a122df",
+  "users": [
+    {
+      "hashing_algorithm": "rabbit_password_hashing_sha256",
+      "limits": {},
+      "name": "guest",
+      "password_hash": "T4uX6u00Hpe2dwErYKagB607Mbp2EY6WIcxyz8bkjBKAeJXK",
+      "tags": [
+        "administrator"
+      ]
+    }
+  ],
+  "rabbit_version": "4.1.0+beta.4.178.g4a122df",
+  "exchanges": [],
+  "vhosts": [
+    {
+      "default_queue_type": "classic",
+      "limits": [],
+      "metadata": {
+        "description": "Default virtual host",
+        "tags": []
+      },
+      "name": "/"
+    }
+  ],
+  "global_parameters": [
+    {
+      "name": "cluster_name",
+      "value": "localhost"
+    },
+    {
+      "name": "cluster_tags",
+      "value": []
+    }
+  ],
+  "topic_permissions": []
+}
