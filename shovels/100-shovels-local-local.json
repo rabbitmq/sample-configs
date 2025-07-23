@@ -1320,7 +1320,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-1",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1328,7 +1328,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-2",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1336,7 +1336,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-3",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1344,7 +1344,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-4",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1352,7 +1352,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-5",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1360,7 +1360,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-6",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1368,7 +1368,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-7",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1376,7 +1376,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-8",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1384,7 +1384,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-9",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1392,7 +1392,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-10",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1400,7 +1400,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-11",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1408,7 +1408,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-12",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1416,7 +1416,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-13",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1424,7 +1424,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-14",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1432,7 +1432,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-15",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1440,7 +1440,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-16",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1448,7 +1448,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-17",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1456,7 +1456,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-18",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1464,7 +1464,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-19",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1472,7 +1472,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-20",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1480,7 +1480,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-21",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1488,7 +1488,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-22",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1496,7 +1496,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-23",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1504,7 +1504,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-24",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1512,7 +1512,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-25",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1520,7 +1520,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-26",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1528,7 +1528,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-27",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1536,7 +1536,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-28",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1544,7 +1544,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-29",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1552,7 +1552,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-30",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1560,7 +1560,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-31",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1568,7 +1568,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-32",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1576,7 +1576,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-33",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1584,7 +1584,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-34",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1592,7 +1592,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-35",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1600,7 +1600,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-36",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1608,7 +1608,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-37",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1616,7 +1616,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-38",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1624,7 +1624,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-39",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1632,7 +1632,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-40",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1640,7 +1640,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-41",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1648,7 +1648,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-42",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1656,7 +1656,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-43",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1664,7 +1664,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-44",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1672,7 +1672,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-45",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1680,7 +1680,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-46",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1688,7 +1688,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-47",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1696,7 +1696,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-48",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1704,7 +1704,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-49",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1712,7 +1712,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-50",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1720,7 +1720,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-51",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1728,7 +1728,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-52",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1736,7 +1736,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-53",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1744,7 +1744,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-54",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1752,7 +1752,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-55",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1760,7 +1760,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-56",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1768,7 +1768,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-57",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1776,7 +1776,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-58",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1784,7 +1784,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-59",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1792,7 +1792,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-60",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1800,7 +1800,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-61",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1808,7 +1808,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-62",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1816,7 +1816,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-63",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1824,7 +1824,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-64",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1832,7 +1832,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-65",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1840,7 +1840,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-66",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1848,7 +1848,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-67",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1856,7 +1856,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-68",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1864,7 +1864,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-69",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1872,7 +1872,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-70",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1880,7 +1880,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-71",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1888,7 +1888,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-72",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1896,7 +1896,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-73",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1904,7 +1904,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-74",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1912,7 +1912,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-75",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1920,7 +1920,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-76",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1928,7 +1928,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-77",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1936,7 +1936,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-78",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1944,7 +1944,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-79",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1952,7 +1952,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-80",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1960,7 +1960,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-81",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1968,7 +1968,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-82",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1976,7 +1976,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-83",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1984,7 +1984,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-84",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -1992,7 +1992,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-85",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2000,7 +2000,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-86",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2008,7 +2008,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-87",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2016,7 +2016,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-88",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2024,7 +2024,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-89",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2032,7 +2032,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-90",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2040,7 +2040,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-91",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2048,7 +2048,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-92",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2056,7 +2056,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-93",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2064,7 +2064,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-94",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2072,7 +2072,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-95",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2080,7 +2080,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-96",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2088,7 +2088,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-97",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2096,7 +2096,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-98",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2104,7 +2104,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-99",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2112,7 +2112,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "src-queue-100",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2120,7 +2120,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-1",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2128,7 +2128,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-2",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2136,7 +2136,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-3",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2144,7 +2144,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-4",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2152,7 +2152,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-5",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2160,7 +2160,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-6",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2168,7 +2168,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-7",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2176,7 +2176,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-8",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2184,7 +2184,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-9",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2192,7 +2192,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-10",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2200,7 +2200,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-11",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2208,7 +2208,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-12",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2216,7 +2216,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-13",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2224,7 +2224,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-14",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2232,7 +2232,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-15",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2240,7 +2240,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-16",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2248,7 +2248,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-17",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2256,7 +2256,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-18",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2264,7 +2264,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-19",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2272,7 +2272,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-20",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2280,7 +2280,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-21",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2288,7 +2288,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-22",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2296,7 +2296,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-23",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2304,7 +2304,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-24",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2312,7 +2312,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-25",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2320,7 +2320,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-26",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2328,7 +2328,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-27",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2336,7 +2336,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-28",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2344,7 +2344,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-29",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2352,7 +2352,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-30",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2360,7 +2360,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-31",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2368,7 +2368,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-32",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2376,7 +2376,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-33",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2384,7 +2384,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-34",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2392,7 +2392,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-35",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2400,7 +2400,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-36",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2408,7 +2408,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-37",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2416,7 +2416,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-38",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2424,7 +2424,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-39",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2432,7 +2432,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-40",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2440,7 +2440,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-41",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2448,7 +2448,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-42",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2456,7 +2456,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-43",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2464,7 +2464,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-44",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2472,7 +2472,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-45",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2480,7 +2480,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-46",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2488,7 +2488,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-47",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2496,7 +2496,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-48",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2504,7 +2504,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-49",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2512,7 +2512,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-50",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2520,7 +2520,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-51",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2528,7 +2528,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-52",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2536,7 +2536,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-53",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2544,7 +2544,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-54",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2552,7 +2552,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-55",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2560,7 +2560,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-56",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2568,7 +2568,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-57",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2576,7 +2576,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-58",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2584,7 +2584,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-59",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2592,7 +2592,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-60",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2600,7 +2600,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-61",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2608,7 +2608,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-62",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2616,7 +2616,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-63",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2624,7 +2624,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-64",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2632,7 +2632,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-65",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2640,7 +2640,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-66",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2648,7 +2648,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-67",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2656,7 +2656,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-68",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2664,7 +2664,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-69",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2672,7 +2672,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-70",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2680,7 +2680,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-71",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2688,7 +2688,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-72",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2696,7 +2696,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-73",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2704,7 +2704,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-74",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2712,7 +2712,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-75",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2720,7 +2720,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-76",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2728,7 +2728,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-77",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2736,7 +2736,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-78",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2744,7 +2744,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-79",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2752,7 +2752,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-80",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2760,7 +2760,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-81",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2768,7 +2768,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-82",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2776,7 +2776,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-83",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2784,7 +2784,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-84",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2792,7 +2792,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-85",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2800,7 +2800,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-86",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2808,7 +2808,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-87",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2816,7 +2816,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-88",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2824,7 +2824,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-89",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2832,7 +2832,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-90",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2840,7 +2840,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-91",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2848,7 +2848,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-92",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2856,7 +2856,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-93",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2864,7 +2864,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-94",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2872,7 +2872,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-95",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2880,7 +2880,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-96",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2888,7 +2888,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-97",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2896,7 +2896,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-98",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2904,7 +2904,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-99",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       },
       {
@@ -2912,7 +2912,7 @@
          "auto_delete": false,
          "durable": true,
          "name": "dst-queue-100",
-         "type": "quorum",
+         "type": "classic",
          "vhost": "/"
       }
    ],
